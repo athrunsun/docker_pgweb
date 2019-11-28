@@ -1,0 +1,20 @@
+trigger:
+  tags:
+    include:
+    - '0.11.4'
+
+variables:
+  image_name: 'okampfer/pgweb'
+
+jobs:
+  - job: build_docker_image
+    pool:
+      vmImage: 'ubuntu-18.04'
+    steps:
+    - task: Docker@2
+      displayName: Build and push
+      inputs:
+        command: buildAndPush
+        containerRegistry: docker_hub_service_connection_okampfer
+        repository: $(image_name)
+        tags: '0.11.4'
