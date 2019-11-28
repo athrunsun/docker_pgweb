@@ -5,7 +5,6 @@ trigger:
 
 variables:
   image_name: 'okampfer/pgweb'
-  pgweb_version: '0.11.4'
 
 jobs:
   - job: build_docker_image
@@ -19,5 +18,5 @@ jobs:
         containerRegistry: docker_hub_service_connection_okampfer
         repository: $(image_name)
         tags: |
-          'latest'
-          $(pgweb_version)
+          latest
+          0.11.4
