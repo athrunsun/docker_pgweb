@@ -1,4 +1,4 @@
-# [pgweb](https://github.com/sosedoff/pgweb) in docker
+# [pgweb](https://github.com/sosedoff/pgweb) in docker [![Build Status](https://okampfer.visualstudio.com/docker_pgweb_build/_apis/build/status/athrunsun.docker_pgweb?branchName=master)](https://okampfer.visualstudio.com/docker_pgweb_build/_build/latest?definitionId=4&branchName=master)
 Before getting started, you'll need to have a running postgres database server.
 
 ## Usage
