@@ -1,4 +1,4 @@
-# [pgweb](https://github.com/sosedoff/pgweb) in docker [![Build Status](https://okampfer.visualstudio.com/docker_pgweb_build/_apis/build/status/athrunsun.docker_pgweb?branchName=master)](https://okampfer.visualstudio.com/docker_pgweb_build/_build/latest?definitionId=4&branchName=master)
+# [pgweb](https://github.com/sosedoff/pgweb) in docker [![Azure Build Status](https://okampfer.visualstudio.com/docker_pgweb_build/_apis/build/status/athrunsun.docker_pgweb?branchName=master)](https://okampfer.visualstudio.com/docker_pgweb_build/_build/latest?definitionId=4&branchName=master) [![Github Build Status](https://github.com/athrunsun/docker_pgweb/workflows/build_docker_image_and_push/badge.svg)](https://github.com/athrunsun/docker_pgweb/actions)
 Before getting started, you'll need to have a running postgres database server.
 
 ## Usage
